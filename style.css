@@ -116,11 +116,11 @@ color: rgb(247, 83, 110);
 }
 
 .col1{
-background-image: url(images/happiness.jpg);
-padding: 100px;
-margin-top: 40px;
-text-align: center;
-}
+  background-image: url(images/happiness.jpg);
+  padding: 100px;
+  margin-top: 40px;
+  text-align: center;
+  }
 /* pricing section */
 #pricing{
   padding:100px;
@@ -353,5 +353,11 @@ padding: 3% 3%;
     width: 95%;
     height: 60%;
   }
+  .col1{
+    padding: 20%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2rem;
+    }
 
 }}
