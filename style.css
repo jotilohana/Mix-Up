@@ -1,0 +1,357 @@
+body{
+  font-family: "montserrat";
+  text-align: center;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "montserrat-bold",sans-serif;
+  font-weight: bolder;
+}
+
+p{
+  color: black;
+}
+
+/* heading section */
+
+  
+.big-heading{
+  font-family:"Montserrat-Black";
+  font-size:3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.main{
+font-size: 2.5rem;
+}
+
+/* container */
+.container-fluid{
+  padding: 7% 15%;
+}
+ 
+/* navigation bar */
+.navbar{
+   padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "montserrat-light";
+}
+
+/* title section */
+#title{
+  color: white;
+  background-image: linear-gradient(#000046,#1cb5e0);
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 6%;
+}
+
+/* account button */
+  .account-buttons{
+  margin: 5% 3% 5% 0;
+  color: darkblue;
+}
+
+.img{
+  border-radius: 30%;
+}
+/* background-section */
+.coloured-section{
+  background-image: linear-gradient(#000046,#1cb5e0);
+}
+
+.white-section{
+  background-color: #fff;
+}
+/* feature section */
+ #features{
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-text{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 4.5%;
+}
+.icon{
+  background-image: linear-gradient(#000046,#1cb5e0);  
+  background:-moz-linear-gradient(top, #000046 0%, #1cb5e0 100%); 
+  background: -webkit-linear-gradient(top, #000046 0%,#1cb5e0 100%); 
+  background: linear-gradient(to bottom, #000046 0%,#1cb5e0 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+
+/* guarentee */
+#guarantee{
+width:100% ;
+padding: 0;  
+color: #fff;
+}
+
+.heart{
+color: rgb(247, 83, 110);
+}
+
+.col1{
+background-image: url(images/happiness.jpg);
+padding: 100px;
+margin-top: 40px;
+text-align: center;
+}
+/* pricing section */
+#pricing{
+  padding:100px;
+}
+.card{
+  width: 330px;
+}
+.card-header{
+border-bottom-color: #fff;
+background-color: #fff;
+}
+.card-text{
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.pricing-section{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 0.5%;
+}
+
+.img2{
+  padding-top: 5px;
+  width: 100%;
+  height: 200px;
+}
+
+/* footer */
+
+#footer .container-fluid{
+  height: 30px;
+  align-items: center;
+}
+
+.footer-icon{
+  margin:10px 10px;
+  }
+
+
+/* main-photo-book */
+
+
+#title .container1{
+  padding: 0%;
+}
+  /* navigation bar */
+.nav1{
+  padding: 1% 10% 1%;
+}
+  .main-text{
+    background-color: white;
+    color: navy;
+    padding: 8% 10% 6%;
+    height: 600px;
+  } 
+  .text{
+    text-align: left;
+  }
+  .btn-gradient{
+  color: #fff;
+  background-image: linear-gradient(#000046,#1cb5e0);
+  border-radius: 5%;
+  border-bottom: none;
+  }
+.main-pb{
+  width: 650px;
+  height: 300px;
+  padding-right: 5%;
+}
+.section4{
+  margin: 50px 10px 100px;
+}
+.image-text{
+ width: 10px;
+ margin-top: 20px;
+}
+
+
+
+
+/* calender */
+.heading{
+ display: flex;
+ text-align: justify;
+}
+.div1{
+padding: 3% 3%;
+}
+.div2{
+padding: 3% 3%;
+}
+
+.intro{
+ color: #fff;
+ padding: 7%;
+}
+
+
+
+/* login */
+
+.login-div{
+ height: 420px;
+ width: 350px;
+ margin: 7.5% auto;
+ padding: 3% 0;
+ background-color: #fff;
+ color: navy;
+}
+.login-button{
+  width: 150px;
+  margin-top: 20px;
+  border-bottom: none;
+}
+.login-img{
+  height: 100px;
+  width: 120px;
+}
+
+
+
+
+
+@media (max-width:1230px) {
+
+.text{
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: #fff;
+}
+.main-pb{
+  width: 90%;
+  height: 80%;
+}
+}
+@media (max-width:1150px) {
+
+.text{
+  text-align: center;
+  margin-bottom: 20px;
+}
+}
+@media (max-width:1100px) {
+
+.main-pb{
+  width: 500px;
+  height: 250px;
+}
+
+}
+
+@media (max-width:1032px) {
+  #title{
+  text-align: center;
+  }
+  .text{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.imgc{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width:900px) {
+
+  .text{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .main-pb{
+    width: 95%;
+    height: 60%;
+  }
+  .imgc{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
+
+@media (max-width:800px){
+  .center{
+    display: inline-block;
+    text-align: center;
+  }
+  .heading{
+    display: block;
+  }
+}
+@media (max-width:650px) {
+
+  .text{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .main-pb{
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media (max-width:392px) and (min-width:0px){
+  body{
+    margin: 0;
+    overflow-x: hidden;
+
+  }
+  .coloured-section,.white-section{
+    width: 100%;
+  }
+  .card{
+    display: block;
+    width: 100%;
+  }
+  .pricing-section{
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  .section4{
+    width: 99%;
+  }
+  .main-pb{
+    width: 95%;
+    height: 60%;
+  }
+
+}}
